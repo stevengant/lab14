@@ -1,1 +1,35 @@
-/* TODO: Make it awesome */
+body {
+  background-color: yellow;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  text-align: center;
+  background: black;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 4em;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+
+
+#img-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+ul {
+  color: #fff;
+  width: max-content;
+  margin: auto;
+}
+
+li {
+  line-height: 30px;
+}
